@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-image: url(/static/fondomvte.png);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.h1{
+    font-size: 3.9rem;
+    font-weight: bold;
+    margin-right:980px ;
+    margin-top: 20%;
+
+}
+.boton{
+    padding: 10px 20px;
+margin: 5px;
+font-size: 25px;
+color: #ffffff;
+border: 1px solid #f2f2f2;
+border-radius: 15px;
+background-color: #5e6bdd;
+margin-right:980px;
+cursor: pointer;
+margin-top: 5%;
+transition: transform 0.5s;
+}
+.boton:hover{
+    transform: scale(1.05);
+}
+.contenedores{
+    font-weight: bold ;
+    margin-right: 55%;
+    font-size: 20px;
+    margin-top: 1%;
+    
+}
+.MVTE{
+    margin-left: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50%;
+    margin-left: 60%;
+
+}
+.text{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-right: 980px;
+    margin-top: -0.5%;
+    
+}
+.footer{
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    
+    font-weight: var(--bs-nav-link-font-weight);
+    color:#000000;
+    
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
